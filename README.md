@@ -32,6 +32,28 @@ A full-featured responsive coaching application built with **SpringBoot** backen
 - **HTTP Client**: Angular HttpClient
 - **Real-time**: WebSocket
 
+## Quick Start
+
+### Prerequisites
+- Java 17+
+- Node.js 18+
+- MySQL 8.0 or PostgreSQL
+- Docker & Docker Compose (optional)
+
+### Backend Setup
+```bash
+cd backend
+mvn clean install
+mvn spring-boot:run
+```
+
+### Frontend Setup
+```bash
+cd frontend
+npm install
+ng serve
+```
+
 ## Project Structure
 
 ```
@@ -77,28 +99,6 @@ coaching-app/
 ├── docker-compose.yml
 ├── .gitignore
 └── SETUP.md
-```
-
-## Quick Start
-
-### Prerequisites
-- Java 17+
-- Node.js 18+
-- MySQL 8.0 or PostgreSQL
-- Docker & Docker Compose (optional)
-
-### Backend Setup
-```bash
-cd backend
-mvn clean install
-mvn spring-boot:run
-```
-
-### Frontend Setup
-```bash
-cd frontend
-npm install
-ng serve
 ```
 
 ## API Endpoints
